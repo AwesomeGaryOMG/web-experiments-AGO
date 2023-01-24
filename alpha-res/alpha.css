@@ -1,0 +1,34 @@
+#color-red {
+    color: red;
+    background-color: red;
+}
+
+#color-blue {
+    color: blue;
+    background-color: blue;
+}
+
+#color-green {
+    color: green;
+    background-color: green;
+}
+
+#color-orange {
+    color: orange;
+    background-color: orange;
+}
+
+.colour-buttons{
+    border: 3px solid;
+    border-color: grey;
+    width: 69px;
+    height: 42px;
+}
+
+.colour-buttons:hover {
+    border-color: black;
+}
+
+.colour-buttons:active {
+    border-color:rebeccapurple
+}
