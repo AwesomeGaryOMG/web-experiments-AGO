@@ -19,10 +19,10 @@
 }
 
 .colour-buttons{
-    border: 3px solid;
+    border: 6px solid;
     border-color: grey;
-    width: 69px;
-    height: 42px;
+    width: 100px;
+    height: 69px;
 }
 
 .colour-buttons:hover {
