@@ -4,22 +4,43 @@
 <head>
     <title>home stuff</title>
     <meta charset="UTF-8">
-    <link href="./alpha-res/index.css" rel="stylesheet">
-    <link href="./alpha-res/favicon48.png" rel="icon">
+    <link href="./index.css" rel="stylesheet">
+    <link href="./favicon48.png" rel="icon">
 </head>
 
 <body>
     <h1>Hello World</h1>
     <div id="tabs">
         <p>
-            <a href="./alpha-res/alpha-page1.html">Go to page alpha-page1</a>
+            <a href="./colour_buttons_res/colour_buttons.html">Go to page colourful buttons</a>
         </p>
     </div>
     <div id="useless_animation_div">
-        <p>Click for animation (it's a work in progress!)</p>
-        <button id="useless_nimation_button">animate</button>
+        <p>Click for animation (the button is a work in progress!)</p>
+        <button id="useless_animation_button">animate</button>
         <div id="the_useless_animation">
-            <div id="embed_useless" class="tenor-gif-embed" data-postid="15479937" data-share-method="host" data-aspect-ratio="1.15942" data-width="100%"><a href="https://tenor.com/view/dancing-voting-day-celebrate-dog-silly-dog-gif-15479937">Dancing Voting Day GIF</a>from <a href="https://tenor.com/search/dancing-gifs">Dancing GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+            <!-- <div id="embed_useless" 
+                    class="tenor-gif-embed" 
+                    data-postid="15479937" 
+                    data-share-method="host" 
+                    data-aspect-ratio="1.15942" 
+                    data-width="100%">
+                        <a href="https://tenor.com/view/dancing-voting-day-celebrate-dog-silly-dog-gif-15479937">
+                            Dancing Voting Day GIF</a>from <a href="https://tenor.com/search/dancing-gifs">
+                                Dancing GIFs</a></div> 
+                                <script type="text/javascript" 
+                                async src="https://tenor.com/embed.js">
+                            </script> -->
+            <script>
+                const animationDiv = document.querySelector('the_useless_animation');
+                const animateButton = document.querySelector('useless_animation_button');
+                animateButton.addEventListener('click', click2animate);
+                function click2animate (event) {
+                    async () => {
+                        //fetch()
+                    }
+                };
+            </script>
         </div>
     </div>
 </body>
