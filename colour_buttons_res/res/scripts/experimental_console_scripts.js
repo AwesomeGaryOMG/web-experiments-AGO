@@ -1,4 +1,6 @@
+"use strict";
 let life_num = 42;
+// Typescript considers this as an error however Javascript accepts this.
 life_num = 'forty-two';
 console.log("life", life_num);
 var messages = {
@@ -11,8 +13,10 @@ var messages = {
     twice_life: "Put two lives together and you get " + life_num + life_num,
 };
 console.log(Object.values(messages));
-
-const uselessButton = document.getElementById("useless_nimation_button")
-const uselessAnimation = document.getElementById("the_useless_animation")
-uselessButton.addEventListener("click",)
-
+let x, y;
+// Expected this formatting to show up as coordinates positions based on the coordinates itself in the Javascript file after compiling. (i forgot words)
+let matrixWithWhitespace = [
+    [x - 1, y + 1], [x, y + 1], [x + 1, y + 1],
+    [x - 1, y], [x + 1, y],
+    [x - 1, y - 1], [x + 1, y - 1]
+];
